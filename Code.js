@@ -1,4 +1,6 @@
 
+alert("Memes");
+
 
 var setting = false;
 var delay = 1;
