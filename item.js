@@ -1,0 +1,25 @@
+var htmlString="";
+htmlString += "<style>";
+htmlString += "#hacks{";
+htmlString += "  background-color: #f5ffaf;";
+htmlString += "  width: 200px;";
+htmlString += "  float: left;";
+htmlString += "  top: 0;";
+htmlString += "  position: absolute;";
+htmlString += "}";
+htmlString += "<\/style>";
+htmlString += "";
+htmlString += "<div id=\"hacks\">";
+htmlString += "";
+htmlString += "<button id=\"Recorder\">Record<\/button>";
+htmlString += "<button id=\"Reset\">Reset<\/button>";
+htmlString += "<div id = \"counter\">0<\/div>";
+htmlString += "<input type=\"number\" id=\"delayInput\">";
+htmlString += "<button id=\"Play\">Play<\/button>";
+htmlString += "<script  src=\"https:\/\/rawgit.com\/voncrumb\/Cursors\/master\/hacks.js\"><\/script>";
+htmlString += "";
+htmlString += "<\/div>";
+
+var div = document.createElement('div');
+div.innerHTML = htmlString;
+document.body.append(div);
