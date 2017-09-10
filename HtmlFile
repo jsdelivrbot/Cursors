@@ -1,0 +1,16 @@
+<style>
+#hacks{
+  background-color: #f5ffaf;
+  width: 200px;
+  float: left;
+}
+</style>
+
+<div id="hacks">
+<button id="Recorder">Record</button>
+<button id="Reset">Reset</button>
+<div id = "counter">0</div>
+<input type="number" id="delayInput">
+<button id="Play">Play</button>
+
+</div>
