@@ -10,7 +10,10 @@ var c = document.getElementById("canvasContainer");
 
 var movingEvent = [];
 
-c.addEventListener("mousedown", mover)
+if(c != null){
+	c.addEventListener("mousedown", mover);
+}
+
 
 function set(){
 	setting = true;
